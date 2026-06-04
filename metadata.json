@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow",
+  "description": "Premium Android To-Do App (2026 Edition)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

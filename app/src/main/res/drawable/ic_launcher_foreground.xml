@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 1. BACK DECORATIVE PAGE (Stacked Paper Effect) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M35,27h44a6,6 0 0,1 6,6v44a6,6 0 0,1 -6,6h-44a6,6 0 0,1 -6,-6v-44a6,6 0 0,1 6,-6z"
+        android:alpha="0.4" />
+
+    <!-- 2. MIDDLE DECORATIVE PAGE (Stacked Paper Effect) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,31h44a7,7 0 0,1 7,7v44a7,7 0 0,1 -7,7h-44a7,7 0 0,1 -7,-7v-44a7,7 0 0,1 7,-7z"
+        android:alpha="0.8" />
+
+    <!-- 3. MAIN FRONT WHITE PAGE -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,35h44a8,8 0 0,1 8,8v44a8,8 0 0,1 -8,8h-44a8,8 0 0,1 -8,-8v-44a8,8 0 0,1 8,-8z" />
+
+    <!-- 4. ROW 1: COMPLETED BLUE CHECKBOX (Circle + Checkmark) -->
+    <!-- Circle Outer -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M37,45m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <!-- White miniature check arrow inside -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34.8,45l1.4,1.4l2.6,-2.8" />
+    <!-- Row 1 Text Line 1 (Bold Task Title representation) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M46,43.5h20v2.5h-20z" />
+    <!-- Row 1 Text Line 2 (Subtext description line) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M46,47.5h12v1.5h-12z" />
+
+    <!-- 5. ROW 2: COMPLETED BLUE CHECKBOX (Circle + Checkmark) -->
+    <!-- Circle Outer -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M37,56m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <!-- White miniature check arrow inside -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34.8,56l1.4,1.4l2.6,-2.8" />
+    <!-- Row 2 Text Line 1 (Bold Task Title representation) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M46,54.5h22v2.5h-22z" />
+    <!-- Row 2 Text Line 2 (Subtext description line) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M46,58.5h15v1.5h-15z" />
+
+    <!-- 6. ROW 3: UNCOMPLETED BLUE CHECKBOX (Outlined Circle) -->
+    <!-- Circle Outer -->
+    <path
+        android:strokeColor="#2563EB"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M37,67m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <!-- Row 3 Text Line 1 (Bold Task Title representation) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M46,65.5h16v2.5h-16z" />
+    <!-- Row 3 Text Line 2 (Subtext description line) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M46,69.5h10v1.5h-10z" />
+
+    <!-- 7. FLOATING ACTION BUTTON (Plus badge at bottom right) -->
+    <!-- Circular FAB button backdrop -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M73,73m-9.5,0a9.5,9.5 0 1,1 19,0a9.5,9.5 0 1,1 -19,0" />
+    <!-- White clear plus symbol representational lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M73,68.5v9 M68.5,73h9" />
+
+</vector>
